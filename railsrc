@@ -1,0 +1,9 @@
+--database postgresql
+--skip-jbuilder
+--skip-action-text
+--skip-action-cable
+--skip-sprockets
+--skip-javascript
+--skip-turbolinks
+--skip-test
+--skip-system-test

@@ -1,0 +1,30 @@
+[init]
+  	defaultBranch = develop
+[user]
+	name = Kieran Johnson
+	email = kieran@invisiblelines.com
+	signingkey = C6DD7C28983C520E
+
+[includeIf "gitdir:~/workspace/"]
+	path = ~/.gitconfig-kajima
+[alias]
+	co = checkout
+	cob = checkout -b
+	st = stash
+	pop = stash pop
+	reset = "!git reset --hard origin/HEAD"
+        
+[commit]
+	gpgsign = true
+[color]
+	ui = auto
+[gpg]
+	program = gpg
+[merge]
+	ff = only
+[push]
+	current = true
+[pull]
+	rebase = true
+[merge]
+	conflictStyle = zdiff3
